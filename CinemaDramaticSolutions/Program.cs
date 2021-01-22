@@ -71,7 +71,7 @@ namespace CinemaDramaticSolutions
 
         private static String toStringSpl(string words)
         {
-
+            //Fix
             var wordString = words.ToString();
             while (int i = 0; i < wordString.Split(' ').Length; int++){
                 var newString[i] = wordString.Split(' ');
