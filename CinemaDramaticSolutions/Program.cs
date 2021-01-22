@@ -42,12 +42,12 @@ namespace CinemaDramaticSolutions
                         String tenT = Console.ReadLine();
                         repeat10times(tenT);
                         break;
-                    //på gång
+                    //klar
                     case "3":
                         Console.WriteLine("Menyval 3: Det tredje ordet");
                         Console.WriteLine("Skriv en mening med minst tre ord");
-                        var words = "glökjdslkgj sdgdsga agddgag agag";
-                            //Console.ReadLine();
+                         //= "glökjdslkgj sdgdsga TRE agag";
+                        var words = Console.ReadLine();
                         toStringSpl(words);
                         break;
                     //klar
@@ -70,16 +70,12 @@ namespace CinemaDramaticSolutions
             } while (m);
         }
 
-        private static String toStringSpl(string words)
+        private static void toStringSpl(string words)
         {
-            //Fix
-            //Again
-            var wordString = words.ToString();
-            while (int i = 0; i < wordString.Split(' ').Length; int++){
-                var newString[i] = wordString.Split(' ');
-            }
-
-            Console.WriteLine(newString);
+            var w = words.Split();
+            var first = w[1];
+            var w3 = w[2];
+            Console.WriteLine(w3);
         }
 
         private static void repeat10times(String text)
