@@ -74,7 +74,7 @@ namespace CinemaDramaticSolutions
         {
             for (int i = 0; i < 10; i++)
             {
-                StrOut((i + 1) + ". " + str + ", ");
+                Console.Write((i + 1) + ". " + str + ", ");
             }
             StrOut("\n");
         }
